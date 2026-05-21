@@ -1,0 +1,15 @@
+[
+  {"query": "install claw-compactor hooks in this repo", "should_trigger": true},
+  {"query": "set up context compaction for agents", "should_trigger": true},
+  {"query": "configure agent hooks for Reservoir context compaction", "should_trigger": true},
+  {"query": "agents aren't getting compacted context from Reservoir", "should_trigger": true},
+  {"query": "bootstrap claw-compactor for a cloud agent spin-up", "should_trigger": true},
+  {"query": "hook up compaction for claude and codex and copilot", "should_trigger": true},
+  {"query": "set up .claude/settings.json hooks for context compaction", "should_trigger": true},
+  {"query": "deploy this service to Azure", "should_trigger": false},
+  {"query": "run the unit tests for the ingest pipeline", "should_trigger": false},
+  {"query": "create a pull request for the manifest changes", "should_trigger": false},
+  {"query": "install npm dependencies and build the packages", "should_trigger": false},
+  {"query": "review the ingest route code for security issues", "should_trigger": false},
+  {"query": "scaffold a new feature plan for the flow daemon", "should_trigger": false}
+]
